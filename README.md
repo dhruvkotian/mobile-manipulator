@@ -136,11 +136,11 @@ Both sketches carry the same three values near the top and they must stay in syn
 
 ```cpp
 const char* AP_SSID = "MobileManipulator";
-const char* AP_PASS = "manipulator123";
+const char* AP_PASS = "YOUR_AP_PASSWORD";
 const uint32_t AUTH_TOKEN = 0x5EEDC0DE;
 ```
 
-Change the SSID and password to anything you like (WPA2 needs 8+ characters). The token is not real security, it only rejects stray traffic on the same channel; treat the link as a short-range private network and keep the rover in sight.
+Set your own password before flashing (WPA2 needs 8+ characters) and keep it out of the repository. Change the SSID too if you run more than one rover. The token is not real security, it only rejects stray traffic on the same channel; treat the link as a short-range private network and keep the rover in sight.
 
 To run more than one rover in the same room, give each a different SSID and channel.
 

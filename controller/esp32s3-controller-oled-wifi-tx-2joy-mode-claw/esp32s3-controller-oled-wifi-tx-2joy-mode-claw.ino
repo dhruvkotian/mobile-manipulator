@@ -10,7 +10,7 @@
 // ============================================================
 
 const char* AP_SSID = "MobileManipulator";
-const char* AP_PASS = "manipulator123";
+const char* AP_PASS = "YOUR_AP_PASSWORD";  // set before flashing; keep out of git
 
 // Rover ESP32 AP default IP
 IPAddress roverIP(192, 168, 4, 1);

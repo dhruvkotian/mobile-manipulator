@@ -7,7 +7,7 @@
 // ============================================================
 
 const char* AP_SSID = "MobileManipulator";
-const char* AP_PASS = "manipulator123";
+const char* AP_PASS = "YOUR_AP_PASSWORD";  // set before flashing; keep out of git
 
 WiFiUDP udp;
 const uint16_t UDP_PORT = 4210;
